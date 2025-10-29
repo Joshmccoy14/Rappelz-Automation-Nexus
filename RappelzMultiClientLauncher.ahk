@@ -876,6 +876,7 @@ DownloadUpdate(NewVersion) {
     FileAppend, %NewVersion%, version.txt
     Progress, Off
     MsgBox, 64, Update Complete, Update installed successfully!`n`nRestart the launcher.
+    reload
 }
 
 HttpGet(URL) {
